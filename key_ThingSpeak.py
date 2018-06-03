@@ -13,10 +13,10 @@ key_association=[ ('FMWF1AMW6SMOBD5Q',6), ('FMWF1AMW6SMOBD5Q',2) ]
 # node 10 and 11 will use channel BBBBBBBBBBBBBBBB
 # other nodes will use default channel
 
-field_association=[ (2,1), (6,8) ]
+field_association=[ (2,1), (6,4) ]
 # [(6,1),(7,5)] means data from respectively sensor 6/7 will use starting field index of 1/5
 #field_association=[(6,1),(7,5)
 
-nomenclature_association=[ ("T1",0), ("T2",1), ("LT",4), ("LN",5), ("DT",8), ("TM",8) ]
+nomenclature_association=[ ("T1",0), ("T2",1), ("LT",4), ("LN",5), ("DT",8), ("TM",8), ("BT", 3) ]
 # ("TC",0) means that if nomemclature is "TC" then the offset for field index will be 0
 # nomenclature_association=[("TC",0),("HU",1),("LU",2),("CO2",3)]

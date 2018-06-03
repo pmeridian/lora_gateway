@@ -181,7 +181,7 @@ def main(ldata, pdata, rdata, tdata, gwid):
 		
 	str_json_data += '}'
 	
-	print str_json_data
+	print "PM => "+json.dumps(json.loads(str_json_data))
 	
 	#creating document to add
 	doc = {
@@ -196,6 +196,8 @@ def main(ldata, pdata, rdata, tdata, gwid):
 		"data":json.dumps(json.loads(str_json_data))
 	}
 
+        print "PM 2"
+        
 	#adding the document
 	add_document(doc)
 

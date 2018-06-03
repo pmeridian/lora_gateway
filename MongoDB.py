@@ -52,11 +52,16 @@ def add_document(document):
 		# client MongoDB
 		client = MongoClient()
 
+                print "PM => Opening DB"
+
 		# open database messages
 		db = client.messages
-		
+                print "PM => Saving data into MongoDB"
+                
 		# adding the data in the collection
 		db.ReceivedData.insert_one(document)
+                print "PM => Done"
+                                
 	except Exception as e:
 		print("MongoDB: can not add document in MongoDB: " + str(e))
 	
