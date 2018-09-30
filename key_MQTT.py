@@ -1,13 +1,13 @@
 ####################################################
 #server: CAUTION must exist
-MQTT_server="test.mosquitto.org"
+MQTT_server="127.0.0.1"
 
 #project name
-project_name="waziup"
+project_name="testIoT"
 
 #your organization: CHANGE HERE
 #choose one of the following: "DEF", "UPPA", "EGM", "IT21", "CREATENET", "CTIC", "UI", "ISPACE", "UGB", "WOELAB", "FARMERLINE", "C4A", "PUBD"
-organization_name="UPPA"
+organization_name="PM"
 #organization_name="ORG"
 
 #sensor name: CHANGE HERE but maybe better to leave it as Sensor
@@ -20,6 +20,6 @@ sensor_name="Sensor"
 #Use decimal between 2-255 and use 4-byte hex format for LoRaWAN devAddr
 #leave empty to allow all devices
 #source_list=["3", "255", "01020304"]
-source_list=[]
+source_list=[ "2", "6" ]
 
 ####################################################
