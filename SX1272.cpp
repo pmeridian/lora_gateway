@@ -121,7 +121,7 @@ SX1272::SX1272()
     // Initialize class variables
     _bandwidth = BW_125;
     _codingRate = CR_5;
-    _spreadingFactor = SF_7;
+    _spreadingFactor = SF_12;
     _channel = CH_12_900;
     _header = HEADER_ON;
     _CRC = CRC_OFF;
@@ -852,7 +852,7 @@ int8_t SX1272::setMode(uint8_t mode)
     // test for LoRaWAN channel
     case 11:
         setCR(CR_5);        // CR = 4/5
-        setSF(SF_7);        // SF = 12
+        setSF(SF_12);        // SF = 12
         setBW(BW_125);      // BW = 125 KHz
         // set the sync word to the LoRaWAN sync word which is 0x34
 	/*

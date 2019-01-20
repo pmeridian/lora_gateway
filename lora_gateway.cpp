@@ -660,9 +660,9 @@ void startConfig() {
   */
   //  sx1272.writeRegister(0x1E,0x74);
   //  sx1272.writeRegister(0x26,0x0);
-  sx1272.setSF(7);
+  sx1272.setSF(12);
   //  sx1272.writeRegister(0x9,0x8F);
-  //  sx1272.printRegisters();
+  sx1272.printRegisters();
 }
 
 void setup()
