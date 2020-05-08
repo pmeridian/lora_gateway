@@ -8,7 +8,7 @@
 		"freq" : -1
 	},
 	"gateway_conf" : {
-		"gateway_ID" : "000000XXXXXXDEF0",
+		"gateway_ID" : "00000027EB33E607",
 		"ref_latitude" : "my_lat",
 		"ref_longitude" : "my_long",
 		"wappkey" : false,
